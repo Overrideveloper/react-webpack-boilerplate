@@ -79,8 +79,8 @@ console.log(instance.name);
 console.log(StaticClass.name);
 // returns 'StaticClass'
 ```
-**@babel/plugin-proposal-decorators**: This allows us use the @Decorator syntax in the codebase. 
-**@babel/plugin-syntax-dynamic-import**: This allows parsing of import() statements.
+**@babel/plugin-proposal-decorators**: This allows us use the @Decorator syntax in the codebase. <br>
+**@babel/plugin-syntax-dynamic-import**: This allows parsing of import() statements.<br>
 **@babel/plugin-proposal-object-rest-spread**: This allows us use the rest and spread operators.
 
 ```javascript
@@ -104,8 +104,8 @@ console.log(rest);
 // returns ['Isaac', 'Jacob']
 ```
 
-**@babel/preset-env**: A babel preset that allows use the latest JavaScript without having to micromanage the syntax transforms needed for our target environment.
-**@babel/preset-react**: This allows the compilation of JSX into backwards-compatible JavaScript. React is built on JSX, so this help us write React.
+**@babel/preset-env**: A babel preset that allows use the latest JavaScript without having to micromanage the syntax transforms needed for our target environment.<br>
+**@babel/preset-react**: This allows the compilation of JSX into backwards-compatible JavaScript. React is built on JSX, so this help us write React.<br>
 **babel-loader**: A loader that will be used in our Webpack configuration to process JavaScript and JSX files.
 
 * Install webpack-related packages. These packages include loaders, presets, plugins and core webpack and webpack-dev-server packages. They are devDependencies
