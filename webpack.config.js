@@ -50,7 +50,7 @@ module.exports = {
                 use: debug ? ['style-loader', 'css-loader', 'sass-loader'] : [MiniCssExtractPlugin, 'css-loader', 'sass-loader'],
             },
             {
-                test: /\.(eot|tff|woff|woff2|otf|svg)$/,
+                test: /\.(eot|ttf|woff|woff2|otf|svg)$/,
                 use: [
                     {
                         loader: 'url-loader',
